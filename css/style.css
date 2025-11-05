@@ -1,0 +1,117 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/navbar.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #7263f3;
+}
+
+a:hover {
+  color: #5a4ae8;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-light {
+  background-color: #f8f9fa;
+}
+
+.section-intro {
+  font-size: 18px;
+  color: #666666;
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.typeform-container {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.typeform-container iframe {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .typeform-container iframe {
+    height: 500px;
+  }
+}
